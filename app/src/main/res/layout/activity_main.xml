@@ -1,47 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/show_count"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="#FFEA00"
-        android:gravity="center"
-        android:text="@string/countstr"
-        android:textColor="@color/purple_700"
-        android:textSize="160sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button_count"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_toast" />
-
+    <!--    TextView to Show Counter Value    -->
     <Button
         android:id="@+id/button_toast"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
         android:onClick="showToast"
-        android:text="@string/toast"
-        app:backgroundTint="@color/purple_700"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="@string/toast" />
 
+    <!-- Shows Hello Toast -->
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#FFFF00"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/countstr"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="160sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/button_toast"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <!-- Button to increase counter by 1 -->
     <Button
         android:id="@+id/button_count"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/show_count"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:onClick="countUp"
         android:text="@string/count"
-        app:backgroundTint="@color/purple_700"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
