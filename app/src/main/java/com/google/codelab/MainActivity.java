@@ -1,40 +1,31 @@
 package com.google.codelab;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.core.content.ContextCompat;
 
+import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.codelab.databinding.ActivityMainBinding;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
-    private int mCount = 0;
+    ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
-
-    /**
-     * Shows toast saying Hello Toast!
-     * @param view root of ui
-     */
-    public void showToast(View view) {
-        Toast toast = Toast.makeText(this, R.string.toast_message,
-                Toast.LENGTH_SHORT);
-        toast.show();
-    }
-
-    /**
-     * Increases the count shown in text fied by 1
-     * @param view root of ui
-     */
-    public void countUp(View view) {
-        ++mCount;
-        TextView mShowCount = (TextView) findViewById(R.id.show_count);
-        if (mShowCount != null)
-            mShowCount.setText("" + mCount);
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
     }
 }
