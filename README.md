@@ -8,6 +8,8 @@ Click [Here](https://github.com/patelsneh18/CodeLab/releases/download/1.0/app-de
 
 ## [CodeLab Part-B](https://github.com/patelsneh18/CodeLab/tree/Part-B)
 
+Click [Here](https://github.com/patelsneh18/CodeLab/releases/download/1.1/app-debug.apk) to download apk
+
 [Android fundamentals 01.2 Part B: Your first interactive UI](https://developer.android.com/codelabs/android-training-layout-editor-part-b?index=..%2F..%2Fandroid-training#9)
 
 ![alt text](https://github.com/patelsneh18/storage/blob/main/CodeLab/PartB1.png)
@@ -15,6 +17,8 @@ Click [Here](https://github.com/patelsneh18/CodeLab/releases/download/1.0/app-de
 ![alt text](https://github.com/patelsneh18/storage/blob/main/CodeLab/PartB2.png)
 
 ## [CodeLab 1.3](https://github.com/patelsneh18/CodeLab/tree/1.3)
+
+Click [Here](https://github.com/patelsneh18/CodeLab/releases/download/1.2/app-debug.apk) to download apk
 
 [Android fundamentals 01.3: Text and scrolling views](https://developer.android.com/codelabs/android-training-text-and-scrolling-views?index=..%2F..%2Fandroid-training#6)
 
