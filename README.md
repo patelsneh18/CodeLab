@@ -1,6 +1,7 @@
 ## [CodeLab Part A](https://github.com/patelsneh18/CodeLab)
 
-Click (Here)[https://github.com/patelsneh18/CodeLab/releases/download/1.0/app-debug.apk] to download apk
+Click [Here](https://github.com/patelsneh18/CodeLab/releases/download/1.0/app-debug.apk) to download apk
+
 [Android fundamentals 01.2 Part A: Your first interactive UI](https://developer.android.com/codelabs/android-training-layout-editor-part-a?index=..%2F..%2Fandroid-training#9)
 
 ![alt text](https://github.com/patelsneh18/storage/blob/main/CodeLab/CodeLab%20%5BC__Users_patel_AndroidStudioProjects_CodeLab2%5D%20%E2%80%93%20MainActivity.java%20%5BCodeLab.app%5D%20Android%20Studio%204_30_2021%204_35_42%20PM.png)
