@@ -40,7 +40,7 @@ Click [Here](https://github.com/patelsneh18/CodeLab/releases/download/1.3/app-de
 
 [Constraint Layout 1 Codelab](https://developer.android.com/codelabs/constraint-layout)
 
-![alt text](https://github.com/patelsneh18/storage/blob/main/CodeLab/Consatraint1.jpg)
+<img title="" src="https://github.com/patelsneh18/storage/blob/main/CodeLab/Consatraint1.jpg" alt="" width="231">
 
 ## [Constraint Layout 2](https://github.com/patelsneh18/CodeLab/tree/constraintLayout2)
 
