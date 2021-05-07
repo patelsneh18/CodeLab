@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         b = ActivityMainBinding.inflate(getLayoutInflater());
         super.onCreate(savedInstanceState);
         setContentView(b.getRoot());
+        setupEventHandlers();
     }
 
     /**
